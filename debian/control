@@ -1,13 +1,15 @@
 Source: googletest
 Homepage: https://github.com/google/googletest
 Section: devel
-Maintainer: Steve M. Robbins <smr@debian.org>
-Uploaders: Fredrik Hallenberg <hallon@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Steve M. Robbins <smr@debian.org>
+XSBC-Pexip-Original-Uploaders: Fredrik Hallenberg <hallon@debian.org>
 Priority: optional
 Build-Depends: debhelper (>= 13), cmake, python3:native
 Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/debian/googletest.git
 Vcs-Browser: https://salsa.debian.org/debian/googletest
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
 Package: googletest
 Architecture: all
